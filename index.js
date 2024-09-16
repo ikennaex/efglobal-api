@@ -12,7 +12,9 @@ const app = express();
 require("dotenv").config();
 app.use(cookieParser());
 app.use(express.json());
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(
+  cors({ credentials: true, origin: "https://forms.efglobaltravels.com/" || "https://efglobalform.vercel.app/" })
+);
 app.use(express.urlencoded({ extended: true }));
 
 // function authMiddleware(req, res, next) {
