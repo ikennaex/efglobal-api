@@ -13,7 +13,7 @@ require("dotenv").config();
 app.use(cookieParser());
 app.use(express.json());
 app.use(
-  cors({ credentials: true, origin: "https://efglobalform.vercel.app/" })
+  cors({ credentials: true, origin: "https://forms.efglobaltravels.com/" })
 );
 app.use(express.urlencoded({ extended: true }));
 
