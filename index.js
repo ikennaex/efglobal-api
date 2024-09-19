@@ -200,7 +200,7 @@ app.post("/answers", async (req, res) => {
     sponsorProvide,
     proofOfFunds,
     howYouHeard,
-    
+
     nationality,
     placeOfBirth,
     internationalPassportNumber,
